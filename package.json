@@ -3,12 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "builds": [
-    { "src": "app.js", "use": "@vercel/node" }
- ],
- "routes": [
-    { "src": "/(.*)", "dest": "/app.js" }
- ]
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
